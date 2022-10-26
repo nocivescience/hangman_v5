@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.game-container{
+    width: 90%;
+    max-width: 800px;
+    height: 80%;
+    box-shadow: 0 0 12px black;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-tarjetas{
+    border: 2px red solid;
+    border-radius: 8px;
+    box-shadow: 0 0 13px rgba(255, 0, 0, 0.516);
+    background-color: transparent;
+    background: none;
+}
+.subcontainer{
+    width: 80%;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.data-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+.celling{
+    width: 45%;
+    height: 80px;
+    border: 2px solid rgb(129, 129, 129);
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    box-shadow: rgb(129, 129, 129) 0 0 7px;
+    border-radius: 7px;
+}
+.letter{
+    display: inline-flex;
+    width: 30px;
+    height: 40px;
+    color: aliceblue;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(255, 0, 0, 0.611);
+    margin: 0 10px;
+}
+.message-container{
+    border: rgb(6, 135, 248) 2px solid;
+    box-shadow: 0 0 7px rgb(6, 135, 248);
+}
+.boton-play{
+    content: jugar;
+    border: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.673);
+}
+.boton-play:active{
+    transform: scale(0.98);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.673);
+}
