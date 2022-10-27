@@ -80,3 +80,7 @@ body{
     transform: scale(0.98);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.673);
 }
+.letter.active{
+    transform: rotateX(3600);
+    transition: 1s transform ease-out;
+}
